@@ -93,6 +93,12 @@
 
 // დავალება 7. სტრიქონის განაწილება
 
-let text6 = "Hello world";
-let result6 = text6.split(" ");
-console.log(result6);
+// let text6 = "Hello world";
+// let result6 = text6.split(" ");
+// console.log(result6);
+
+// დავალება 8. სტრიქონის დასაწყისი
+
+let text8 ="Java";
+let result8 = text8.startsWith("Java");
+console.log(result8)
