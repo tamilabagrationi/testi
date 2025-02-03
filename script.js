@@ -53,6 +53,46 @@
 // letters.reverse();
 // console.log(letters);
 
-let books = ["Math", "Science", "History"];
-let length = books.length;
-console.log(length);
+// let books = ["Math", "Science", "History"];
+// let length = books.length;
+// console.log(length);
+
+// 29 January
+
+// დავალება 1. სტრიქონის სიგრძე
+// let text = "Flower";
+// let result = text.length;
+// console.log(result)
+
+// დავალება 2. სტრიქონის ყველა ასო დიდი
+// let text1 = "Flower";
+// let result1 = text1.toUpperCase();
+// console.log(result1)
+
+// დავალება 3. სტრიქონის ყველას ასო პატარა
+
+// let text2 = "Flower";
+// let result2 = text2.toLowerCase()
+// console.log(result2)
+
+// დავალება 4. სტიქონის კონკრეტული სიმბოლო
+// let text3 = "Hello";
+// let result3 = Text3.indexOf(1);
+// console.log(result3)
+
+// დავალება 5. სტრიქონის ნაწილი
+// let text4 = "Flower";
+// let result4 = text4.slice(2,5);
+// console.log(result4)
+
+// დავალება 6. სტრქონის ცვლილება
+
+// let text5 ="Hello";
+// let result5 = text5.replace("Hello" , "Hi");
+// console.log(result5)
+
+// დავალება 7. სტრიქონის განაწილება
+
+let text6 = "Hello world";
+let result6 = text6.split(" ");
+console.log(result6);
