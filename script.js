@@ -99,6 +99,31 @@
 
 // დავალება 8. სტრიქონის დასაწყისი
 
-let text8 ="Java";
-let result8 = text8.startsWith("Java");
-console.log(result8)
+// let text8 = "Java";
+// let result8 = text8.startsWith("Java");
+// console.log(result8);
+
+// დავალება 9. სტრიქონის ბოლოს
+
+// let text9 ="Hello"
+// let result9 = text9.endsWith("script");
+// console.log (result9)
+
+// დავალება 10. სტრიქონის გამეორება
+
+// // let text10 = "hello";
+// let result10 = text10.repeat(4);
+// console.log(result10)
+
+// დავალება 11. სტრიქონის ცარიელი სივრცეების მოცილება
+
+// let text11 = "   Flower";
+// let result11 = text11.trim();
+// console.log (result11)
+
+// დავალება 12. სტრიქონის გამოყოფა
+
+let text12 ="Hello";
+let result12 = text12.includes("JavaSlript");
+console.log(result12);
+
