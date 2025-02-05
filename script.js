@@ -123,7 +123,44 @@
 
 // დავალება 12. სტრიქონის გამოყოფა
 
-let text12 ="Hello";
-let result12 = text12.includes("JavaSlript");
-console.log(result12);
+// let text12 ="Hello";
+// let result12 = text12.includes("JavaSlript");
+// console.log(result12);
+
+// 31 იანვრის დავალება
+
+// let age = prompt("daweret asaki")
+// console.log(typeofage)
+
+// let age = Number(prompt("daweret asaki"));
+// console.log(typeof age);
+
+// let fullName= prompt("დაწერწთ სახელი");
+// let result = fullName.trim();
+// console.log(result)
+
+// const student = {
+//     name: "ლაშა",
+//     age: 20,
+//     isStudying: true,
+//     favoriteSubjects: ["მათემატიკა", "ფიზიკა", "პროგრამირება"],
+//     address: {
+//         city: "თბილისი",
+//         street: "რუსთაველის გამზირი"
+//     }
+// };
+// console.log(student);
+
+
+const student = {
+    name: prompt("შეიყვანე სტუდენტის სახელი:"),
+    age: Number(prompt("შეიყვანე სტუდენტის ასაკი:")),
+    isStudying: confirm("სწავლობს ახლა? დააჭირე OK თუ სწავლობს, ან Cancel თუ არა."),
+    favoriteSubjects: prompt("შეიყვანე სტუდენტის საყვარელი საგნები მძიმით გამოყოფილი:").split(","),
+    address: {
+        city: prompt("შეიყვანე ქალაქი:"),
+        street: prompt("შეიყვანე ქუჩა:")
+    }
+};
+console.log(student);
 
