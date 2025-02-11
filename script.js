@@ -151,16 +151,107 @@
 // };
 // console.log(student);
 
+// const student = {
+//     name: prompt("შეიყვანე სტუდენტის სახელი:"),
+//     age: Number(prompt("შეიყვანე სტუდენტის ასაკი:")),
+//     isStudying: confirm("სწავლობს ახლა? დააჭირე OK თუ სწავლობს, ან Cancel თუ არა."),
+//     favoriteSubjects: prompt("შეიყვანე სტუდენტის საყვარელი საგნები მძიმით გამოყოფილი:").split(","),
+//     address: {
+//         city: prompt("შეიყვანე ქალაქი:"),
+//         street: prompt("შეიყვანე ქუჩა:")
+//     }
+// };
+// console.log(student);
 
-const student = {
-    name: prompt("შეიყვანე სტუდენტის სახელი:"),
-    age: Number(prompt("შეიყვანე სტუდენტის ასაკი:")),
-    isStudying: confirm("სწავლობს ახლა? დააჭირე OK თუ სწავლობს, ან Cancel თუ არა."),
-    favoriteSubjects: prompt("შეიყვანე სტუდენტის საყვარელი საგნები მძიმით გამოყოფილი:").split(","),
-    address: {
-        city: prompt("შეიყვანე ქალაქი:"),
-        street: prompt("შეიყვანე ქუჩა:")
+// davaleba 3 tebervali
+
+// for(let i = 2 , = 20; i+=2){
+// console.log(i);
+// }
+
+// let sum = 0;
+// for(let i=1; i <= 100; i++){
+//     sum = sum +i
+// }
+// console.log(sum);
+
+// let Number =1;
+// if(Number > 0){
+//     console.log("დადებითია");
+
+// } else if (Number < 0){
+//     console.log("უარყოფითია");
+
+// }
+// else{
+//     console.log("ნული");
+// }
+
+// let fullName = prompt("დაწერეთ სახელი");
+// console.log(fullName);
+
+// for (let i=1; i<10; i++) {
+//     console.log(i);
+// }
+
+// let i=1
+// while (i<10) {
+//     console.log(i)
+//     i++;
+// }
+
+// for (let i=2; i<20; i++) {
+//     console.log(i);
+
+// }
+
+// function greet(fullName){
+//     console.log(`hello ${fullName}`);
+// }
+// greet("Teona");
+
+// ციკლები
+
+// let array =[2,4,6,8,34,23,45,66,88];
+// for (let i=0; i<array.length; i++){
+//     if (array [i] % 2 ==1){
+//         console.log(array[i]);
+//     }
+// }
+
+// let array =[2,4,6,8,34,23,45,66,88];
+// for (let i=0; i<array.length; i++){
+//     if (array [i] % 2 ==0){
+// //         console.log(array[i]);
+//     }
+// }
+
+// function greet(fullName){
+//     return `hello ${fullName}`;
+// }
+// let result = greet("Teona");
+// console.log(result);
+
+// const greet = function(fullName) {
+//     return `Hello ${fullName}`
+
+// }
+// let result = greet("Teona");
+// console.log(result);
+
+
+// const greet = (fullname) => `hello ${fullname}`
+// let result = greet ("Teona")
+// console.log(result)
+
+function sum(... num){
+    let result =0
+    for (let item of num){
+        if (item >0) {
+            result= result + item
+        }
     }
-};
-console.log(student);
-
+    return result
+}
+ let sumResult = sum(2,3,4,5,6,7,8,9,-2,-3,-5)
+ console.log(sumResult)
