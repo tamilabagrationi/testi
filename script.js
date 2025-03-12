@@ -97,161 +97,25 @@
 // let result6 = text6.split(" ");
 // console.log(result6);
 
-// დავალება 8. სტრიქონის დასაწყისი
 
-// let text8 = "Java";
-// let result8 = text8.startsWith("Java");
-// console.log(result8);
+let hamburger = document.querySelector(".hamburger");
+let navigation = document.querySelector(".nav-menu");
 
-// დავალება 9. სტრიქონის ბოლოს
-
-// let text9 ="Hello"
-// let result9 = text9.endsWith("script");
-// console.log (result9)
-
-// დავალება 10. სტრიქონის გამეორება
-
-// // let text10 = "hello";
-// let result10 = text10.repeat(4);
-// console.log(result10)
-
-// დავალება 11. სტრიქონის ცარიელი სივრცეების მოცილება
-
-// let text11 = "   Flower";
-// let result11 = text11.trim();
-// console.log (result11)
-
-// დავალება 12. სტრიქონის გამოყოფა
-
-// let text12 ="Hello";
-// let result12 = text12.includes("JavaSlript");
-// console.log(result12);
-
-// 31 იანვრის დავალება
-
-// let age = prompt("daweret asaki")
-// console.log(typeofage)
-
-// let age = Number(prompt("daweret asaki"));
-// console.log(typeof age);
-
-// let fullName= prompt("დაწერწთ სახელი");
-// let result = fullName.trim();
-// console.log(result)
-
-// const student = {
-//     name: "ლაშა",
-//     age: 20,
-//     isStudying: true,
-//     favoriteSubjects: ["მათემატიკა", "ფიზიკა", "პროგრამირება"],
-//     address: {
-//         city: "თბილისი",
-//         street: "რუსთაველის გამზირი"
-//     }
-// };
-// console.log(student);
-
-// const student = {
-//     name: prompt("შეიყვანე სტუდენტის სახელი:"),
-//     age: Number(prompt("შეიყვანე სტუდენტის ასაკი:")),
-//     isStudying: confirm("სწავლობს ახლა? დააჭირე OK თუ სწავლობს, ან Cancel თუ არა."),
-//     favoriteSubjects: prompt("შეიყვანე სტუდენტის საყვარელი საგნები მძიმით გამოყოფილი:").split(","),
-//     address: {
-//         city: prompt("შეიყვანე ქალაქი:"),
-//         street: prompt("შეიყვანე ქუჩა:")
-//     }
-// };
-// console.log(student);
-
-// davaleba 3 tebervali
-
-// for(let i = 2 , = 20; i+=2){
-// console.log(i);
-// }
-
-// let sum = 0;
-// for(let i=1; i <= 100; i++){
-//     sum = sum +i
-// }
-// console.log(sum);
-
-// let Number =1;
-// if(Number > 0){
-//     console.log("დადებითია");
-
-// } else if (Number < 0){
-//     console.log("უარყოფითია");
-
-// }
-// else{
-//     console.log("ნული");
-// }
-
-// let fullName = prompt("დაწერეთ სახელი");
-// console.log(fullName);
-
-// for (let i=1; i<10; i++) {
-//     console.log(i);
-// }
-
-// let i=1
-// while (i<10) {
-//     console.log(i)
-//     i++;
-// }
-
-// for (let i=2; i<20; i++) {
-//     console.log(i);
-
-// }
-
-// function greet(fullName){
-//     console.log(`hello ${fullName}`);
-// }
-// greet("Teona");
-
-// ციკლები
-
-// let array =[2,4,6,8,34,23,45,66,88];
-// for (let i=0; i<array.length; i++){
-//     if (array [i] % 2 ==1){
-//         console.log(array[i]);
-//     }
-// }
-
-// let array =[2,4,6,8,34,23,45,66,88];
-// for (let i=0; i<array.length; i++){
-//     if (array [i] % 2 ==0){
-// //         console.log(array[i]);
-//     }
-// }
-
-// function greet(fullName){
-//     return `hello ${fullName}`;
-// }
-// let result = greet("Teona");
-// console.log(result);
-
-// const greet = function(fullName) {
-//     return `Hello ${fullName}`
-
-// }
-// let result = greet("Teona");
-// console.log(result);
+hamburger.addEventListener("click", function () {
+  navigation.classList.toggle("active");
+  hamburger.innerHTML = navigation.classList.contains("active")
+    ? '<i class="fas fa-times"></i>'
+    : '<i class="fa-solid fa-bars"></i>';
+});
 
 
-// const greet = (fullname) => `hello ${fullname}`
-// let result = greet ("Teona")
-// console.log(result)
 
-function sum(... num){
-    let result =0
-    for (let item of num){
-        if (item >0) {
-            result= result + item
-        }
-    }
-    return result
-}
- let sumResult = sum(2,3,4,5,6,7,8,9,-2,-3,-5)
- console.log(sumResult)
+  console.log("დავალება 1");
+
+  setTimeout(() => {
+  console.log("დავალება 2 ");
+       
+  }, 3000);
+
+  console.log("დავალება 3")
+  
